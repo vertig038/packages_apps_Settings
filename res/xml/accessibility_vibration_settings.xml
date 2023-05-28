@@ -66,6 +66,12 @@
         android:title="@string/accessibility_interactive_haptics_category_title">
 
         <SwitchPreference
+            android:key="haptic_on_slider"
+            android:title="@string/haptic_on_slider_title"
+            android:summary="@string/haptic_on_slider_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
             android:key="touch_vibration_preference_screen"
             android:title="@string/accessibility_touch_vibration_title"
             app:keywords="@string/keywords_touch_vibration"
